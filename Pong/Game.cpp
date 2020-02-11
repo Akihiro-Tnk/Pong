@@ -1,6 +1,4 @@
 #include "Game.h"
-#include "SDL.h"
-#include <stdio.h>
 
 const int thickness = 15;
 const float paddleH = 100.0f;
