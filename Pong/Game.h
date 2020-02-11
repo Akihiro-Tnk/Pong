@@ -1,5 +1,6 @@
 #pragma once
-#include "SDL.h"
+#include "SDL/SDL.h"
+
 
 // Vector2 struct just stores x/y coordinates
 // (for now)
@@ -34,7 +35,7 @@ private:
 	Uint32 mTicksCount;
 	// Game should continue to run
 	bool mIsRunning;
-	
+
 	// Pong specific
 	// Direction of paddle
 	int mPaddleDir;
